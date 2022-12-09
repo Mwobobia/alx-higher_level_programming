@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     if matrix == [] or matrix is None:
-    return
+        return
     else:
     new_matrix = []
     for column in matrix:
