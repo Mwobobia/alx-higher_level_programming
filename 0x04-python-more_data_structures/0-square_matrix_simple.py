@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 def square_matrix_simple(matrix=[]):
     if not matrix or len(matrix) == 0 or matrix[0] == None:
         return matrix
