@@ -2,5 +2,5 @@
 
 def square_matrix_simple(matrix=[]):
 if not matrix or len(matrix) == 0 or matrix[0] == None:
-        return matrix
-    return [[i ** 2 for i in j] for j in matrix]
+    return matrix
+return [[i ** 2 for i in j] for j in matrix]
