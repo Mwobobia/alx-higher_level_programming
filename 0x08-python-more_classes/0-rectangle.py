@@ -7,4 +7,3 @@ Define a class Rectangle
 class Rectangle:
     """represents a Rectangle"""
     pass
-
