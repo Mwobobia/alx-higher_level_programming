@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """
-define a class Rectangle
+Define a class Rectangle
 """
 
 
 class Rectangle:
-    """represents a rectangle"""
+    """represents a Rectangle"""
     pass
 
