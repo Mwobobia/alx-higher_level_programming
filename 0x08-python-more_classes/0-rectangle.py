@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 """
-This file contains the class Rectangle
+define a class Rectangle
 """
 
-
-class Rectangle():
-        """
-        This is the class rectangle
-        """
-        pass
+class Rectangle:
+    pass
