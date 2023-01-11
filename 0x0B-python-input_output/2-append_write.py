@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Contains the append_write function
-"""
+"""append text into a file"""
 
 
 def append_write(filename="", text=""):
-    """Appends a string to a file
-    """ 
-    with open(filename, "a", encoding="utf-8") as f:
-        return(f.write(text))
+    """return the len of text"""
+    with open(filename, mode="a", encoding="utf-8") as myFile:
+        myFile.write(text)
+    return len(text)
