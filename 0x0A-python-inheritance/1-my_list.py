@@ -1,11 +1,20 @@
 #!/usr/bin/python3
-""" This is a function """
+"""
+Contains the MyList class
+"""
 
 
 class MyList(list):
-    """ print new list """
+    """
+    Args:
+        list: The super class
+    """
+    def __init__(self):
+        super().__init__()
 
     def print_sorted(self):
-        """Method that sorted a list"""
+        """
+        prints the sorted list
+        """
 
-        print(sorted(list(self)))
+        print(sorted(self))
