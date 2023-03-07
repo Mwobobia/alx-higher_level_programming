@@ -8,8 +8,8 @@
  */
 listint_t *insert_node(listint_t **head, int number)
 {
-    (void) number;
-    (void) head;
+(void) number;
+(void) head;
 
-    return (0);
+return (0);
 }
