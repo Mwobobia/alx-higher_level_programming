@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "lists.h"
-
 /**
  * insert_node - inserts a number into a sorted singly linked list
  * @head: pointer to pointer to head of list
@@ -19,7 +15,7 @@ listint_t *insert_node(listint_t **head, int number)
     if (new_node == NULL)
         return (NULL);
 
-    new_node->n = number;
+    new_node->n = n= number;
     new_node->next = NULL;
 
     if (*head == NULL || number < (*head)->n)
