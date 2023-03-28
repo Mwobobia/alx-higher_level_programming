@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Creates an class object"""
+# 0-square.py
+"""A module that defines a square """
 
 
 class Square:
-    """Defines a Square"""
+    """A class that represents a Square"""
 
     def __init__(self, size=0):
         """Creates a private instance attribute
