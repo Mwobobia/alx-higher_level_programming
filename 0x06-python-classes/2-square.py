@@ -7,18 +7,17 @@ class Square:
     """A class that represents a Square"""
 
     def __init__(self, size=0):
-        """Creates a private instance attribute
-
-            properties of the attribute:
-
-            size must be an integer othewise raise
-            exception TypeError and must be >= 0
-            otherwise raise exception ValueError.
+        """Initializing this square class
+        Args:
+            size: represents size of the square defined
+        Raises:
+            TyreError: if size is not integer
+            ValueError: if size is less than zero
         """
 
-        if not isinstance(size,int):
-            raise TypeError("size must be an integer")
+        if not isinstance(size, int):
+            raise TypeError('size must be an integer')
         elif size < 0:
-            raise ValueError("size must be >= 0")
+            raise ValueError('size must be >= 0')
         else:
             self.__size = size
