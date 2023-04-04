@@ -63,3 +63,4 @@ class Rectangle:
 			else:
 				string = string + "#" * self.__width
 		return string
+
