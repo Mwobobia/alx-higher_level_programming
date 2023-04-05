@@ -15,7 +15,7 @@ Importing the function:
 
       >>> say_my_name = __import__('3-say_my_name').say_my_name
 
-Test to realize: 
+Test to realize:
 
      >>> say_my_name('Carol', 'Lionels')
      My name is Carol Lionels
