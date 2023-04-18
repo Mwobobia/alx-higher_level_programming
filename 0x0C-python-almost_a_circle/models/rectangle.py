@@ -117,7 +117,7 @@ class Rectangle(Base):
     def to_dictionary(self):
         """ makes dic out of shapes data"""
         dic = {'x': self.__x, 'y': self.__y, 'id': self.id,
-                'width': self.__width, 'height': self.__height}
+               'width': self.__width, 'height': self.__height}
         return dic
 
     def __init__(self, width, height, x=0, y=0, id=None):
