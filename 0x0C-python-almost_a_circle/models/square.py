@@ -52,7 +52,7 @@ class Square(Rectangle):
     def to_dictionary(self):
         """ makes dictionary out of square data"""
         dic = {'id': self.id, 'x': self._Rectangle__x,
-                'y': self._Rectangle__y, 'size': self._Rectangle__width}
+               'y': self._Rectangle__y, 'size': self._Rectangle__width}
         return dic
 
     def __init__(self, size, x=0, y=0, id=None):
